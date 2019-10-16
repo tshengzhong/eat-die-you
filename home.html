@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<title>Home | Eat Die You</title>
+
+<style>
+
+html{
+  background-image:url("background.gif");
+  background-size: cover;
+}
+
+h1 {
+  font-family: georgia;
+  font-size: 45px;
+  color: white;
+  text-align: center;
+}
+
+.header {
+  background-color: moccasin;
+  padding: 20px;
+  text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: tahoma;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.button {
+  background-color: moccasin;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+	font-family:"tahoma";
+  position: relative;
+  left: 45%;
+
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid moccasin;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: lightgrey;
+  font-size: 12px;
+  text-align: center;
+}
+
+</style>
+
+<body>
+
+<!--audio autoplay loop>
+  <source src="bgmusic.mp3" type="audio/mp3">
+</audio-->
+
+<iframe src="media\silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+<audio id="player" autoplay loop>
+    <source src="media\bgmusic.mp3" type="audio/mp3">
+</audio>
+
+<div class="header">
+  <img src="media\logo.png" alt="eatdieyou logo" width="200" style="float:left">
+  <h1 style="font-family:garamond;font-size:45px;color:black;text-align:left">Eat Die You</h1>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="menu.html">Menu</a>
+  <a href="contactus.html">Contact Us</a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1>Try out our new Charboiled Rib Eye Steak</h1>
+<p style="text-align:center;font-family:times;color:white;font-size:20px">Tender and succulent steak served with prime vegetables, corn on cob, baked potato and a bowl of salad. Try it today or see a wide range of exquisite delicacies on our menu.</p>
+<a href="menu.html"><button class="button"><b>Find Out More</b></button></a>
+
+<div class="footer">
+  <p>Copyright © 2019 | Eat Die You Sdn. Bhd.</p>
+  <p>All rights reserved.</p>
+  <p>DISCLAIMER: All pictures shown are for illustration purposes only.</p>
+  <p>Tel. No (HQ): +60 17-224 0993</p>
+</div>
+
+</body>
+</html>

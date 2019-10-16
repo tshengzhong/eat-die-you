@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<title>Contact Us | Eat Die You</title>
+
+<style>
+
+.header {
+  background-color: moccasin;
+  padding: 20px;
+  text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: tahoma;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+text-align: center;
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: moccasin;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: moccasin;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+  font-size: 12px;
+}
+
+</style>
+
+<body>
+
+<iframe src="media\silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+<audio id="player" autoplay loop>
+    <source src="media\bgmusic.mp3" type="audio/mp3">
+</audio>
+
+<div class="header">
+  <img src="media\logo.png" alt="eatdieyou logo" width="200" style="float:left">
+  <h1 style="font-family:garamond;font-size:45px;color:black">Eat Die You</h1>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="menu.html">Menu</a>
+  <a href="contactus.html">Contact Us</a>
+</div>
+
+<br>
+<h2 style="text-align:center">Do DARE to pay us a visit to enjoy a delectable cuisine</h2>
+<br>
+<h1 style="text-align:center">Operation Hours</h1>
+<p style="text-align:center; font-family:times; font-size:25px">
+<b>Monday</b>      Closed      <br>
+<b>Tuesday</b>     9am to 11pm <br>
+<b>Wednesday</b>   9am to 11pm <br>
+<b>Thursday</b>    9am to 11pm <br>
+<b>Friday</b>      9am to 11pm <br>
+<b>Saturday</b>    9am to 11pm <br>
+<b>Sunday</b>      9am to 11pm <br>
+</p>
+<hr>
+<br>
+<h2 style="text-align:center">Having trouble finding a catering company? Do drop us a call at +60 12-389 9736 to quote for you!</h2>
+<br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3983.86991992317!2d101.7144941!3d3.129069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3618e067edeb%3A0xbf72726db0141cac!2sJalan+Metro+Pudu+2%2C+Fraser+Business+Park%2C+55200+Kuala+Lumpur%2C+Wilayah+Persekutuan+Kuala+Lumpur!5e0!3m2!1sen!2smy!4v1547603964699" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<br>
+<br>
+<br>
+<hr>
+
+<h1 style="text-align:center">Enquiries</h1>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Swing by for a cup of coffee, or leave us a message:</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h2 style="font-size:29px; text-align:center"><img src="https://www.freeiconspng.com/uploads/phone-png-2.png" style="width:48px;height:50px;" align="middle"> 017-224 0993</h2>
+
+<h2 style="text-align:center"><a href="mailto:eatdieyou@gmail.com"><img src="http://www.clker.com/cliparts/L/6/l/Q/M/3/emil-icom.svg" style="width:100px;height:90px"; align="middle">eatdieyou@gmail.com</a></h2>
+    </div>
+    <div class="column">
+      <form action="home.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <button onclick= alert("Success!")><input type="submit" value="Submit"></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<pre style="text-align:center; background-color:black; color:lightgray; font-size:12px">
+Copyright © 2019 | Eat Die You Sdn. Bhd.
+All rights reserved.
+DISCLAIMER: All pictures shown are for illustration purposes only.
+Tel. No (HQ): +60 17-224 0993
+</pre>
+</div>
+
+</body>
+</html>

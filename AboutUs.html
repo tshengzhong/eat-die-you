@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<title>About Us | Eat Die You</title>
+
+<style>
+
+text-align: center;
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: moccasin;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+.input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: moccasin;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+}
+
+.text1 {
+	font-size: 20px;
+	text-align: left;
+	padding-left: 300px;
+	}
+.footer1 {
+  background-color: black;
+  text-align: center;
+  color: lightgray;
+  font-size: 12px;
+}
+.button {
+	margin:auto;
+	display:block;
+	}
+
+.header {
+  background-color: moccasin;
+  padding: 20px;
+  text-align: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: tahoma;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+
+<body>
+
+<iframe src="media\silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+<audio id="player" autoplay loop>
+    <source src="media\bgmusic.mp3" type="audio/mp3">
+</audio>
+
+<div class="header">
+  <img src="media\logo.png" alt="eatdieyou logo" width="200" style="float:left">
+  <h1 style="font-family:garamond;font-size:45px;color:black">Eat Die You</h1>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="AboutUs.html">About Us</a>
+  <a href="menu.html">Menu</a>
+  <a href="contactus.html">Contact Us</a>
+</div>
+
+<br>
+<h1 style=text-align:center;>About us</h1>
+
+<p class=text1>Eat Die You restaurant combines an inspired fusion menu from across Europe with a casually modern style setting within the heart of Kuala Lumpur, Malaysia.<br>
+Eat Die You is the creation of Chef Sheng Zhong and reflects his passion for cooking with a diverse fusion menu.</p>
+<h2 style=text-align:center;>"If you want to become a great chef, you have to work with great chefs.</h2>
+<h2 style=text-align:center;>And that's exactly what I did."</h2>
+<p style=text-align:center;><i>Sheng Zhong, Executive Chef/Owner</i></p>
+<p class=text1>Sheng Zhong has partnered with co-owner Nicholas to open this restaurant, the two have a long history growing up together in a small town Cheras.<br>
+The menu takes its inspiration from classic Europe dishes like beef, lamb, pork and seafoods.</p>
+<p class=text1>Eat Die You restaurant is located within the Fraser Business Park building dating from 2006, creating a sense of modern features.</p>
+<p class=text1>An olive tree greets you at the entrance of the restaurant, a wallpaper with birds and plants and a modern lighting to bright up the restaurant.</p>
+<br>
+<h1 class=text1 style=font-size:30px;>Our Mission and Vision</h1>
+<p class=text1>To provide a modern feeling to the customers and a wide variety of food across Europe.<br>
+To be the most affordable modern restaurant in Malaysia.</p>
+
+<a href=https://www.facebook.com/Eat-Die-You-309726396349003 ><button class="button">Facebook</button></a>
+<p style=text-align:center;>Follow our Facebook page for the lastest news and offers.</p>
+<br>
+
+<h1 style="text-align:center">Enquiries</h1>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Swing by for a cup of coffee, or leave us a message:</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <h2 style="font-size:29px; text-align:center"><img src="https://www.freeiconspng.com/uploads/phone-png-2.png" style="width:48px;height:50px;" align="middle"> 017-224 0993</h2>
+
+<h2 style="text-align:center"><a href="mailto:eatdieyou@gmail.com"><img src="http://www.clker.com/cliparts/L/6/l/Q/M/3/emil-icom.svg" style="width:100px;height:90px"; align="middle">eatdieyou@gmail.com</a></h2>
+    </div>
+    <div class="column">
+      <form action="home.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <button onclick= alert("Success!")><a href="home.html"></a><input type="submit" value="Submit"></button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="footer1">
+  <p>Copyright © 2019 | Eat Die You Sdn. Bhd.</p>
+  <p>All rights reserved.</p>
+  <p>DISCLAIMER: All pictures shown are for illustration purposes only.</p>
+  <p>Tel. No (HQ): +60 17-244 0993</p>
+</div>
+
+</body>
+</html>
